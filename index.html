@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+<!--   <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>-->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630 -->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+<!--   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">-->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+<!--   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">-->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Multi-modal Robotic Odor Source Localization with Large Language Model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Integrating Vision and Olfaction via Multi-modal LLM for Robotic Odor Source Localization</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Integrating Vision and Olfaction via Multi-modal LLM for Robotic Odor Source Localization</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://sunzid.com/" target="_blank">Sunzid Hassan</a>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Lingxiao Wang</a>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Khan Raqib Mahmud</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Louisiana Tech University<br>MDPI Sensors, 2024</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Sensors paper link -->
+                      <span class="link-block">
+                        <a href="https://www.mdpi.com/1424-8220/24/24/7875" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" taAcademic Project Pagerget="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/SunzidHassan/24_LLM-OSL" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/LLM_OSL.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Sample run of LLM-based Navigation Algorithm in laminar airflow environment.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Odor Source Localization (OSL) technology allows autonomous agents like mobile robots to find an unknown odor source in a given environment. An effective Navigation Algorithm that guides the robot to approach the odor source is the key to successfully locating the odor source. The downside of traditional olfaction-only OSL methods is that they struggle to localize odor sources in real-world environments with complex airflow. Our proposed solution integrates vision and olfaction sensor modalities to localize odor sources even if olfaction sensing is disrupted by turbulent airflow or vision sensing is impaired by environmental complexities. The model leverages the zero-shot multi-modal reasoning capabilities of large language models (LLMs), negating the requirement of manual knowledge encoding or custom-trained supervised learning models. A key feature of the proposed algorithm is the `High-level Reasoning' module, which encodes the olfaction and vision sensor data into a multi-modal prompt and instructs the LLM to employ a hierarchical reasoning process to select an appropriate high-level navigation behavior. Subsequently, the `Low-level Action' module translates the selected high-level navigation behavior into low-level action commands that can be executed by the mobile robot. To validate our method, we implemented the proposed algorithm on a mobile robot in a complex, real-world search environment that presents challenges to both olfaction and vision-sensing modalities. We compared the performance of our proposed algorithm to single sensory modality-based olfaction-only and vision-only Navigation Algorithms, and a supervised learning-based vision and olfaction fusion Navigation Algorithm. Experimental results demonstrate that multi-sensory Navigation Algorithms are statistically superior to single sensory Navigation Algorithms. The proposed algorithm outperformed the other algorithms in both laminar and turbulent airflow environments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Methodology -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Methodology</h2>
+        <div class="content has-text-justified">
+          <figure>
+            <img src="static\images\LLMFlow.png" alt="Search Area" style="max-width: 100%;">
+            <figcaption>Figure: Framework of the Proposed LLM-based Navigation Algorithm.</figcaption>
+          </figure>
+          <p>
+            'High-level Reasoning Module': The 'High-level Reasoning Module' is the core of the proposed OSL algorithm. The module first generates a multi-modal prompt using a system prompt, olfaction description, and robot's egocentric visual frame. The multi-modal prompt is used to query a multi-modal LLM for high-level navigation decision. The decision is decoded and passed to the 'Low-level Action Module'.
+          </p>
+          <p>
+            'Low-level Action Module' has three primary navigation behaviors. The 'Obstacle-avoid Navigation', the 'Vision-based Navigation' and the 'Olfaction-based Navigation'. The 'Obstacle-avoid Navigation' behavior is activated when a nearby obstacle is detected by the onboard Laser Distance Sensor. The behavior directs the robot to navigate around the obstacle without deviating significantly from the direction the robot was following. The 'Vision-based Navigation' is a class of behaviors that are selected and returned from the 'High-level Reasoning' module. The core strategy of vision-based navigation is to keep the detected target in the middle of the image. The 'Olfaction-based Navigation' includes moth-inspired 'Surge' behavior for following odor and moth-inspired 'Casting' behavior for finding odor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Methodology -->
+
+
+<!-- Paper Experiment -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiment</h2>
+        <div class="content has-text-justified">
+          <figure>
+            <img src="static\images\SearchArea.png" alt="Search Area" style="max-width: 100%;">
+            <figcaption>Figure: Search area used in experiments.</figcaption>
+          </figure>
+          <p>
+            Search area: The focus of the experiment is to test if the proposed navigation algorithm can reason over vision and olfaction sensory inputs to determine the actions to localize an unknown odor source in an environment with obstacles and laminar and turbulent airflow setups.
+          </p>
+          <p>
+            To determine the effectiveness of olfaction and vision integration in OSL, we compared the OSL performance of single sensory modality based 'Olfaction-only' and 'Vision-only', and multi-sensory modality-based 'Vision and Olfaction Fusion' and the proposed LLM-based navigation algorithms.
+          </p>
+          <figure>
+            <img src="static\images\robotPlatform.png" alt="Robot Platform" style="max-width: 100%;">
+            <figcaption>Figure: Robotic platform used in experiments.</figcaption>
+          </figure>
+          <p>
+            The robotic platform used for this task utilizes a Raspberry Pi Camera for vision sensing, an MQ3 alcohol detector and a WindSonic Anemometer for olfaction sensing, and a LDS-02 Laser Distance Sensor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Experiment -->
+
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/oslModel.png" alt="oslModel"/>
+        <h2 class="subtitle has-text-centered">
+          Odor Source Localization Model.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/LLMFlow.png" alt="LLMFlow"/>
+        <h2 class="subtitle has-text-centered">
+          Framework of the Proposed LLM-based Navigation Algorithm.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/SearchArea.png" alt="searchArea"/>
+        <h2 class="subtitle has-text-centered">
+         Search Area for the Real-world Experiment.
+       </h2>
+     </div>
+     <div class="item"> -->
+      <!-- Your image here -->
+      <!-- <img src="static/images/robotPlatform.png" alt="robotPlatform"/>
+      <h2 class="subtitle has-text-centered">
+        Robot Platform for the Real-world Experiments.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container"> -->
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video"> -->
+            <!-- Youtube embed code here -->
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Trajectory Graphs of the Four OSL Navigation Algorithms</h2>
+      
+      <!-- Carousel starts here -->
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/resultCarousel/O.png" alt="O"/>
+          <h2 class="subtitle has-text-centered">
+            Olfaction-only algorithm trajectory.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/resultCarousel/V.png" alt="V"/>
+          <h2 class="subtitle has-text-centered">
+            Vision-only algorithm trajectory.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/resultCarousel/F.png" alt="F"/>
+          <h2 class="subtitle has-text-centered">
+            Vision and Olfaction Fusion Navigation Algorithm trajectory.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/resultCarousel/L.png" alt="L"/>
+          <h2 class="subtitle has-text-centered">
+            Proposed LLM-based Navigation Algorithm trajectory.
+          </h2>
+        </div>
+      </div>
+      <!-- Carousel ends here -->
+      
+      <!-- Move the paragraph outside the carousel -->
+      <p>
+        The results show that multi-modal algorithms outperform the single modality navigation algorithms. Furthermore, the proposed LLM-based algorithm outperformed the supervised learning-based 'Vision and Olfaction Fusion' navigation algorithm.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Trajectory Graphs in Turbulent Airflow Environment</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/resultCarousel/OA2.png" alt="OA2"/>
+        <h2 class="subtitle has-text-centered">
+          Olfaction-only algorithm trajectory.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/resultCarousel/VA2.png" alt="VA2"/>
+        <h2 class="subtitle has-text-centered">
+          Vision-only algorithm trajectory.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="static/images/resultCarousel/FA2.png" alt="FA2"/>
+        <h2 class="subtitle has-text-centered">
+          Vision and Olfaction Fusion Navigation Algorithm trajectory.
+       </h2>
+     </div>
+     <div class="item"> -->
+      <!-- Your image here -->
+      <!-- <img src="static/images/resultCarousel/LA2.png" alt="LA2"/>
+      <h2 class="subtitle has-text-centered">
+        Proposed LLM-based Navigation Algorithm trajectory.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/24_MDPISensors_LLM_OSL.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <!-- <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
