@@ -10,7 +10,7 @@
 
 ## 🔍 Framework Overview
 <p align="center">
-	<img src="assets/LLMFlow2.png" />
+	<img src="assets/framework.png" />
 </p>
 Odor Source Localization (OSL) technology allows autonomous agents like mobile robots to find an unknown odor source in a given environment. Our proposed semantic OSL navigation algorithm integrates visual and olfactory sensing with LLM reasoning to infer likely odor sources and guide robot navigation. Simulation results show improved success rates and shorter travel distances compared to random walk, vision-only, and olfaction-only approaches.
 
