@@ -48,7 +48,7 @@ python sOSL_iThor_nav03_RW.py #for random-walk algorithm
 
 ```
 
-The program will save robot's egocentric frames, and a csv file containing LLM reasoning output. Check the `save` directory for sample output.
+The program will save robot's egocentric frames, and a csv file containing LLM reasoning output in the `save` directory. Check the directory for sample outputs.
 
 ## 🔖 Citation
 ```
