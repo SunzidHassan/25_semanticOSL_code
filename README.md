@@ -3,9 +3,9 @@
 
 [Project page](https://sunzidhassan.github.io/25_semanticOSL/) | [Paper](https://ieeexplore.ieee.org/document/11077500)
 
-[Lingxiao Wang]() |
-[Sunzid Hassan](sunzid.com) |
-[Khan Raqib Mahmud]() |
+[Lingxiao Wang](https://lingxiaow.github.io/index/) |
+[Sunzid Hassan](https://sunzid.com/) |
+[Khan Raqib Mahmud](https://scholar.google.com/citations?user=g64GPuIAAAAJ&hl=en) |
 
 
 ## 🔍 Framework Overview
@@ -17,7 +17,7 @@ Odor Source Localization (OSL) technology allows autonomous agents like mobile r
 ## 🚀 Getting Started
 ### 1. Requirements
 
-We recommend setting up a python virtualenv or conda environment to help manage dependencies. Our code has been tested primarily with Python 3.10. We also recommend using a device with Nvidia CUDA for running the algorithm.
+We recommend setting up a python virtualenv or conda environment to help manage dependencies. Our code has been tested primarily with Python 3.10.
 
 Sample instruction for `conda` users.
 ```bash
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ### 2. Configuration ⚙️ 
 All configurable parameters are located in `config.yaml`.
 
-Before running `llmosl`, make sure to set up your OpenAI API keys. Please note that using the OpenAI API will incur costs ($$$).
+Before running the algorithm, make sure to set up your OpenAI API keys. Please note that using the OpenAI API will incur costs ($$$).
 
 Configure as below in `config.yaml`:
 ```yaml
