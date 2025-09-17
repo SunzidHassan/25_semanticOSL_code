@@ -1,0 +1,5 @@
+--upgrade numpy scipy
+torch torchvision torchaudio
+transformers
+ultralytics
+ai2thor
