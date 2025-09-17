@@ -51,6 +51,7 @@ python sOSL_iThor_nav03_RW.py #for random-walk algorithm
 The program will save robot's egocentric frames, and a csv file containing LLM reasoning output. Check the `save` directory for sample output.
 
 ## 🔖 Citation
+`
 @inproceedings{wang2025semantic,
                 title={Semantic Odor Source Localization via Visual and Olfactory Integrated Navigation},
                 author={Wang, Lingxiao and Hassan, Sunzid and Mahmud, Khan Raqib},
@@ -59,3 +60,4 @@ The program will save robot's egocentric frames, and a csv file containing LLM r
                 year={2025},
                 organization={IEEE}
               }
+`
