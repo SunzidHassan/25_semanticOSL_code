@@ -4,7 +4,7 @@
 [Project page](https://sunzidhassan.github.io/25_semanticOSL/) | [Paper](https://ieeexplore.ieee.org/document/11077500)
 
 [Lingxiao Wang]() |
-[Sunzid Hassan]() |
+[Sunzid Hassan](sunzid.com) |
 [Khan Raqib Mahmud]() |
 
 
