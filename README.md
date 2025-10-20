@@ -47,6 +47,7 @@ python sOSL_iThor_nav03_OO.py #for olfaction-only algorithm
 python sOSL_iThor_nav03_RW.py #for random-walk algorithm
 
 ```
+There are two utility function python files called `sOSL_iThor_navFunc.py` and `sOSL_iThor_objDetector.py`.
 
 The program will save robot's egocentric frames, and a csv file containing LLM reasoning output in the `save` directory. Check the directory for sample outputs.
 
