@@ -1,5 +1,6 @@
---upgrade numpy scipy
-torch torchvision torchaudio
+torch
+torchvision
+torchaudio
 transformers
 ultralytics
 ai2thor
@@ -10,3 +11,4 @@ numpy
 pandas
 PyYAML
 Pillow
+scipy
